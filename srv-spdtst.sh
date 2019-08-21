@@ -64,7 +64,7 @@ gnuplot -persist <<-EOFMarker
   set xlabel ""
   set title "Download speed"
   set ytics format "%.1s%c"
-  set ylabel "bit/s"
+  set ylabel "Byte/s"
   set output "${OUTDIR}/out.png"
   plot "${STATFILE}" using 1:4 title '' with lines
 EOFMarker
