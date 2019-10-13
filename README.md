@@ -10,7 +10,7 @@ URT to file which will be downloaded for measuring the download speed. Must be c
 ### OUTDIR
 Directory where the graphs will be stored.
 
-### TATFILE
+### STATFILE
 Statistics file with the measured download speed.
 
 ### DL_TIMEOUT
@@ -51,5 +51,5 @@ An entry in the statistics file will look like this:
 ~~~~
 1. Date in the format %Y-%m-%dT%H:%M
 2. Total time of download in seconds
-3. Total amount of bytes that were downloaded
+3. Total amount of bytes transferred
 4. Average download speed measured by cURL in Bytes per second
